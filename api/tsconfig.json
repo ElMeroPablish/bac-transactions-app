@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": "..",
+    "paths": {
+      "@contracts/*": ["contracts/*"],
+      "@db/*": ["db/*"]
+    }
+  },
+  "include": ["**/*.ts", "../contracts/**/*.ts", "../db/**/*.ts"]
+}
